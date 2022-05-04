@@ -17,7 +17,7 @@ function MyVerticallyCenteredModal(props) {
         <Modal.Body className='flex'>
           {/* <h4>Select Options</h4> */}
           <button>Azure Active Directory</button>
-          <button>Azure Infastructure</button>
+          <button>Azure Infrastructure</button>
           <button>Microsoft 365 (Exchange Online,OneDrive, Teams)</button>
           <button>On-Premise (Active Directory, Exchange Server)</button>
         </Modal.Body>

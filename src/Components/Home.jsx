@@ -85,7 +85,6 @@ const Card = styled.div`
         border-top: 4px solid black;
     }
     &:nth-child(3){
-        padding-top: 1%;
         border-top: 4px solid green;
     }
     &:nth-child(4){
@@ -142,7 +141,7 @@ function Home() {
             <Card>
                 <Element>
                     <span><MdTask size='2.5rem' color='green'/></span>
-                    <ElementText style={{color:'green'}}>Solution<br/> Assesment</ElementText>
+                    <ElementText style={{color:'green'}}>Solution Assessment</ElementText>
                 </Element>
             </Card>
             <Card>
