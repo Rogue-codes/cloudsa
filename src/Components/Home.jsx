@@ -12,7 +12,7 @@ import "aos/dist/aos.css"
 
 const Container = styled.div`
     width: 100%;
-    height: auto;
+    height: 100vh;
     padding: 1%;
     background: url(${bg});
     background-size: cover;
@@ -61,7 +61,7 @@ const Texxt = styled.h1`
 const Mid = styled.div`
     width: 100%;
     height: auto;
-    margin-top: 15%;
+    margin-top: 10%;
 `
 const Bottom = styled.div`
     width: 100%;
@@ -85,6 +85,7 @@ const Card = styled.div`
         border-top: 4px solid black;
     }
     &:nth-child(3){
+        padding-top: 1%;
         border-top: 4px solid green;
     }
     &:nth-child(4){
@@ -124,7 +125,8 @@ function Home() {
             </Texxt>
         </Mid>
 
-        <Bottom>
+        <Bottom data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
             <Card onClick={() => setModalShow(true)} >
                 <Element>
                     <span><FaHeadset size='2.5rem' color='#9c3233'/></span>
