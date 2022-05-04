@@ -1,13 +1,28 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@400;500;600;700;800;900&family=Barlow:wght@300;400;500;600;700;800;900&family=Bellefair&family=Cormorant+Unicase:wght@700&family=Gugi&family=Oxygen:wght@300;400;700&family=PT+Serif:wght@400;700&family=Radio+Canada:wght@300;500;600;700&family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto+Condensed&family=Roboto:wght@400;500;700;900&family=Rubik+Wet+Paint&display=swap');
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Serif', serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.flex{
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}
+.flex button{
+  border: none;
+  border-radius: 5px;
+  color: #9c3233;
+  border-top: 1px solid #9c3233;
+  background: #efefef;
+  cursor: pointer;
+  padding: .8% 1%;
+  font-family: 'Radio Canada', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: all .5s linear;
+}
+.flex button:hover{
+  background: #9c3233;
+  color: white;
 }
