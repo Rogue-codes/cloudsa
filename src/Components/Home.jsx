@@ -125,7 +125,7 @@ function Home() {
             </Texxt>
         </Mid>
 
-        <Bottom data-aos="fade-up"
+        <Bottom data-aos="fade-down"
      data-aos-anchor-placement="bottom-bottom">
             <Card onClick={() => setModalShow(true)} >
                 <Element>
