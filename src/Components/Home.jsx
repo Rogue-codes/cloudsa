@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import cld from '../Assets/cldsa.png'
-import bg from '../Assets/image.png'
 import {FaHeadset} from 'react-icons/fa'
 import {MdTask} from 'react-icons/md'
 import {RiQuestionAnswerFill} from 'react-icons/ri'
