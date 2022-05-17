@@ -26,3 +26,66 @@
   background: #9c3233;
   color: white;
 }
+.flex2{
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}
+.flex2 button{
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  border-top: 3px solid #000;
+  background: #efefef;
+  cursor: pointer;
+  padding: 2% 1%;
+  font-family: 'Radio Canada', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: all .5s linear;
+}
+.flex2 button:hover{
+  background: black;
+  color: white;
+}
+.flex3{
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}
+.flex3 button{
+  border: none;
+  border-radius: 5px;
+  color: green;
+  border-top: 3px solid green;
+  background: #efefef;
+  cursor: pointer;
+  padding: 2.5% 2%;
+  font-family: 'Radio Canada', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: all .5s linear;
+}
+.flex3 button:hover{
+  background: green;
+  color: white;
+}
+.flex4{
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}
+.flex4 button{
+  border: none;
+  border-radius: 5px;
+  color: orange;
+  border-top: 3px solid orange;
+  background: #efefef;
+  cursor: pointer;
+  padding: 2.5% 2%;
+  font-family: 'Radio Canada', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: all .5s linear;
+}
+.flex4 button:hover{
+  background: orange;
+  color: white;
+}
