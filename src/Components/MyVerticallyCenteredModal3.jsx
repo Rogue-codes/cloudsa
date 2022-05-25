@@ -1,5 +1,6 @@
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
+import { Link } from 'react-router-dom';
 
 function MyVerticallyCenteredModal3(props) {
     return (
@@ -15,9 +16,9 @@ function MyVerticallyCenteredModal3(props) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body className='flex3'>
-          <button>Cybersecurity</button>
-          <button>Infrastructure Optimization (Azure Migration)</button>
-          <button>Cloud Readiness</button>
+          <button><Link to="/email">Cybersecurity</Link></button>
+          <button><Link to="/email">Infrastructure Optimization (Azure Migration)</Link></button>
+          <button><Link to="/email">Cloud Readiness</Link></button>
         </Modal.Body>
         <Modal.Footer>
           <Button onClick={props.onHide}>Close</Button>

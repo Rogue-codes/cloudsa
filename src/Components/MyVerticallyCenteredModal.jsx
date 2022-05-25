@@ -1,5 +1,6 @@
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
+import { Link } from 'react-router-dom';
 
 function MyVerticallyCenteredModal(props) {
     return (
@@ -16,10 +17,10 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Header>
         <Modal.Body className='flex'>
           {/* <h4>Select Options</h4> */}
-          <button>Azure Active Directory</button>
-          <button>Azure Infrastructure</button>
-          <button>Microsoft 365 (Exchange Online,OneDrive, Teams)</button>
-          <button>On-Premise (Active Directory, Exchange Server)</button>
+          <button><Link to="/email">Azure Active Directory</Link></button>
+          <button><Link to="/email">Azure Infrastructure</Link></button>
+          <button><Link to="/email">Microsoft 365 (Exchange Online,OneDrive, Teams)</Link></button>
+          <button><Link to="/email">On-Premise (Active Directory, Exchange Server)</Link></button>
         </Modal.Body>
         <Modal.Footer>
           <Button onClick={props.onHide}>Close</Button>
