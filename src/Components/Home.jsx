@@ -170,6 +170,34 @@ const Social = styled.div`
       }
     }
 `
+const Whatsapp = styled.a`
+  @media (max-width:480px) {
+    left: 80%;
+  }
+  cursor: pointer;
+  position: fixed;
+  left: 92%;
+  top: 70%;
+  width:5%;
+  height: 10%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all .5s linear;
+  border: none;
+  &:hover{
+    transform: scale(1.1)
+  }
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+`
+
 function Home() {
     const [modalShow, setModalShow] = React.useState(false);
     const [modalShow2, setModalShow2] = React.useState(false);
@@ -252,6 +280,10 @@ function Home() {
                 <span><FiInstagram size='1.2rem' color='#fff'/></span>
                 <span><FiLinkedin size='1.2rem' color='#fff'/></span>
         </Social>
+
+        <Whatsapp href="https://api.whatsapp.com/send?phone=2347086793671">
+          <img src='/wat.png' alt=''/>
+        </Whatsapp>
     </Container>
   )
 }
