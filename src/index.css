@@ -10,12 +10,16 @@
   justify-content: space-between;
   gap: 5%;
 }
+.flex button a{
+  color: #fff;
+  text-decoration: none;
+}
 .flex button{
   border: none;
   border-radius: 5px;
   color: #9c3233;
   border-top: 3px solid #9c3233;
-  background: #efefef;
+  background: #9c3233;
   cursor: pointer;
   padding: .8% 1%;
   font-family: 'Radio Canada', sans-serif;
@@ -23,20 +27,23 @@
   transition: all .5s linear;
 }
 .flex button:hover{
-  background: #9c3233;
-  color: white;
+  background: #df3b3ef7;
 }
 .flex2{
   display: flex;
   justify-content: space-between;
   gap: 5%;
 }
+.flex2 button a{
+  color: white;
+  text-decoration: none;
+}
 .flex2 button{
   border: none;
   border-radius: 5px;
   color: #000;
   border-top: 3px solid #000;
-  background: #efefef;
+  background: #000;
   cursor: pointer;
   padding: 2% 1%;
   font-family: 'Radio Canada', sans-serif;
@@ -44,8 +51,7 @@
   transition: all .5s linear;
 }
 .flex2 button:hover{
-  background: black;
-  color: white;
+  background: rgb(54, 53, 53);
 }
 .flex3{
   display: flex;
@@ -57,28 +63,36 @@
   border-radius: 5px;
   color: green;
   border-top: 3px solid green;
-  background: #efefef;
+  background: green;
   cursor: pointer;
   padding: 2.5% 2%;
   font-family: 'Radio Canada', sans-serif;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   transition: all .5s linear;
 }
-.flex3 button:hover{
-  background: green;
+.flex3 button a{
   color: white;
+  text-decoration: none;
+  transition: all .5s linear;
+}
+.flex3 button:hover{
+  background: rgb(1, 181, 1);
 }
 .flex4{
   display: flex;
   justify-content: space-between;
   gap: 5%;
 }
+.flex4 button a{
+  text-decoration: none;
+  color: white
+}
 .flex4 button{
   border: none;
   border-radius: 5px;
   color: orange;
   border-top: 3px solid orange;
-  background: #efefef;
+  background: orange;
   cursor: pointer;
   padding: 2.5% 2%;
   font-family: 'Radio Canada', sans-serif;
@@ -86,6 +100,5 @@
   transition: all .5s linear;
 }
 .flex4 button:hover{
-  background: orange;
-  color: white;
+  background: rgb(235, 171, 54);
 }

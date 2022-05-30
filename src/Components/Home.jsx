@@ -275,13 +275,13 @@ function Home() {
       />
         
         <Social data-aos="fade-down">
-                <span><FiFacebook size='1.2rem' color='#fff'/></span>
-                <span><FiTwitter size='1.2rem' color='#fff'/></span>
-                <span><FiInstagram size='1.2rem' color='#fff'/></span>
-                <span><FiLinkedin size='1.2rem' color='#fff'/></span>
+                <span><a href="https://www.facebook.com/cloudsa.africa"><FiFacebook size='1.2rem' color='#fff'/></a></span>
+                <span><a href="https://www.twitter.com/cloudsa_africa"><FiTwitter size='1.2rem' color='#fff'/></a></span>
+                <span><a href="https://www.instagram.com/cloudsa_africa"><FiInstagram size='1.2rem' color='#fff'/></a></span>
+                <span><a href="https://www.Linkedin.com/company/cloudsa-tech/"><FiLinkedin size='1.2rem' color='#fff'/></a></span>
         </Social>
 
-        <Whatsapp href="https://api.whatsapp.com/send?phone=2347086793671">
+        <Whatsapp href="https://api.whatsapp.com/send?phone=2347049216299">
           <img src='/wat.png' alt=''/>
         </Whatsapp>
     </Container>
