@@ -8,6 +8,7 @@ import cont from '../Assets/image.png'
 const Contain = styled.div`
   @media (max-width:480px) {
     background-position: 70% 10%;
+    padding: 2%;
   }
   width: 100%;
   min-height: 100vh;
@@ -29,6 +30,7 @@ const Contain = styled.div`
 const Form = styled.form`
   @media (max-width:480px) {
     width: 100%;
+    padding: 5%;
   }
   width: 60%;
   padding: 2%;
@@ -40,6 +42,7 @@ const Form = styled.form`
       width: 100%;
       margin-left: 0%;
       height: 6vh;
+      margin: auto!important;
     }
     width: 80%;
     margin-bottom: 5%;
@@ -58,14 +61,11 @@ const Form = styled.form`
       font-size: 1vw;
     }
   }
-  input[type="file"]{
-    width: 40%;
-    height: 15vh;
-  }
   textarea{
     @media (max-width:480px) {
       width: 100%;
       margin-left: 0%;
+      margin-top: 5%;
     }
     width: 80%;
     border: .5px solid lightgrey;
@@ -83,7 +83,7 @@ const Form = styled.form`
   }
   button{
     @media (max-width:480px) {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
     display: block;
     margin-left: 5%;
