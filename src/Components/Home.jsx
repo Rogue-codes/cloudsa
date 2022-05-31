@@ -15,15 +15,13 @@ import MyVerticallyCenteredModal3 from './MyVerticallyCenteredModal3'
 import MyVerticallyCenteredModal4 from './MyVerticallyCenteredModal4'
 
 const Container = styled.div`
-    height: 100vh;
+    min-height: 100vh;
     background-color:#0000006a;
     background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
     background-repeat: no-repeat;
     background-position: center; 
-    position: relative;
-    border: 11px solid #de1313;
 `
 const Top = styled.div`
    width: 100%;
@@ -70,10 +68,8 @@ const Mid = styled.div`
 const Bottom = styled.div`
     width: 95%;
     margin: auto;
-    position: absolute;
     height: 10vh;
     margin-top: 10%;
-    margin-left: 2%;
     display: flex;
     justify-content: space-between;
 `
