@@ -23,6 +23,7 @@ const Container = styled.div`
     background-repeat: no-repeat;
     background-position: center; 
     position: relative;
+    border: 11px solid #de1313;
 `
 const Top = styled.div`
    width: 100%;
