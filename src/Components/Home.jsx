@@ -22,6 +22,7 @@ const Container = styled.div`
     -o-background-size:cover;
     background-repeat: no-repeat;
     background-position: center; 
+    position: relative;
 `
 const Top = styled.div`
    width: 100%;
@@ -68,8 +69,10 @@ const Mid = styled.div`
 const Bottom = styled.div`
     width: 95%;
     margin: auto;
+    position: absolute;
     height: 10vh;
     margin-top: 10%;
+    margin-left: 2%;
     display: flex;
     justify-content: space-between;
 `
