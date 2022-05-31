@@ -15,6 +15,10 @@ import MyVerticallyCenteredModal3 from './MyVerticallyCenteredModal3'
 import MyVerticallyCenteredModal4 from './MyVerticallyCenteredModal4'
 
 const Container = styled.div`
+  @media (max-width:480px) {
+    height: auto;
+    border: 11px solid #f903f1;
+  }
     min-height: 100vh;
     background-color:#0000006a;
     background-size:cover;
@@ -49,12 +53,18 @@ const Text = styled.p`
     margin-left: -1.5%;
 `
 const Texxt = styled.h1`
+  @media (max-width:480px) {
+    font-size: 1.5rem;
+  }
     font-size: 4vw;
     font-weight: 900;
     color: #9c3233;
     font-family: 'Raleway', sans-serif;
     padding-left: 8%;
     span{
+      @media (max-width:480px) {
+        font-size: 1rem;
+      }
         color: white;
         font-size: 2.5vw;
         font-family: 'Raleway', sans-serif;
@@ -66,6 +76,10 @@ const Mid = styled.div`
     margin-top: 10%;
 `
 const Bottom = styled.div`
+  @media (max-width:480px) {
+    flex-direction: column;
+    height: auto;
+  }
     width: 95%;
     margin: auto;
     height: 10vh;
@@ -74,6 +88,11 @@ const Bottom = styled.div`
     justify-content: space-between;
 `
 const Card = styled.div`
+  @media (max-width:480px) {
+    width: 100%;
+    height: 10vh;
+    margin-top: 5%;
+  }
     width: 22%;
     height: 100%;
     border-radius: 12px;
@@ -102,6 +121,9 @@ const Element = styled.div`
     align-items: center;
 `
 const ElementText = styled.p`
+  @media (max-width:480px) {
+    font-size: 1rem;
+  }
     font-size: 1.5vw;
     color: #9c3233;
 `
@@ -128,6 +150,12 @@ const Land = styled.video`
     object-fit: cover;
 ` 
 const Social = styled.div`
+  @media (max-width:480px) {
+    top: 85%;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 2%;
+  }
     width: 4%;
     position: fixed;
     top: 25%;
