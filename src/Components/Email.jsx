@@ -6,6 +6,9 @@ import { Toaster } from 'react-hot-toast';
 import cont from '../Assets/image.png'
 
 const Contain = styled.div`
+  @media (max-width:480px) {
+    background-position: 70% 10%;
+  }
   width: 100%;
   min-height: 100vh;
   width: 100%;
@@ -24,12 +27,20 @@ const Contain = styled.div`
   padding: 5%;
 `
 const Form = styled.form`
+  @media (max-width:480px) {
+    width: 100%;
+  }
   width: 60%;
   padding: 2%;
   min-height: 100%;
   background: #ffffffbd;
   margin: auto;
   input{
+    @media (max-width:480px) {
+      width: 100%;
+      margin-left: 0%;
+      height: 6vh;
+    }
     width: 80%;
     margin-bottom: 5%;
     height: 8vh;
@@ -41,6 +52,9 @@ const Form = styled.form`
       outline: none;
     }
     &::placeholder{
+      @media (max-width:480px) {
+        font-size: .8rem;
+      }
       font-size: 1vw;
     }
   }
@@ -49,6 +63,10 @@ const Form = styled.form`
     height: 15vh;
   }
   textarea{
+    @media (max-width:480px) {
+      width: 100%;
+      margin-left: 0%;
+    }
     width: 80%;
     border: .5px solid lightgrey;
     margin-left: 5%;
@@ -58,9 +76,15 @@ const Form = styled.form`
     }
   }
   p{
+    @media (max-width:480px) {
+      margin-left: 0%;
+    }
     margin-left: 5%;
   }
   button{
+    @media (max-width:480px) {
+      font-size: 1rem;
+    }
     display: block;
     margin-left: 5%;
     margin-top: 5%;
