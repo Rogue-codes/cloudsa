@@ -15,7 +15,7 @@ import MyVerticallyCenteredModal3 from './MyVerticallyCenteredModal3'
 import MyVerticallyCenteredModal4 from './MyVerticallyCenteredModal4'
 
 const Container = styled.div`
-    min-height: 100vh;
+    height: 100vh;
     background-color:#0000006a;
     background-size:cover;
     -moz-background-size:cover;
