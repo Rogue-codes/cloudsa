@@ -182,8 +182,8 @@ const Whatsapp = styled.a`
   position: fixed;
   left: 92%;
   top: 70%;
-  width:5%;
-  height: 10%;
+  width:50px;
+  height: 50px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
