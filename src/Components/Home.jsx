@@ -17,7 +17,6 @@ import MyVerticallyCenteredModal4 from './MyVerticallyCenteredModal4'
 const Container = styled.div`
   @media (max-width:480px) {
     height: auto;
-    border: 11px solid #f903f1;
   }
     min-height: 100vh;
     background-color:#0000006a;
@@ -47,6 +46,9 @@ const Logo = styled.div`
     background-position: center;
 `
 const Text = styled.p`
+  @media (max-width:480px) {
+    font-size: 1rem;
+  }
     font-size: 1.3vw;
     color: white;
     margin-top: 2.5%;
