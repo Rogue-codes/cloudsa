@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 import toast from 'react-hot-toast'
 import { Toaster } from 'react-hot-toast';
 import cont from '../Assets/image.png'
+import { Link } from 'react-router-dom';
 
 const Contain = styled.div`
   @media (max-width:480px) {
@@ -26,6 +27,18 @@ const Contain = styled.div`
   justify-content: flex-start;
   align-items: center;
   padding: 5%;
+  position: relative;
+  a{
+    @media (max-width:480px) {
+      margin-top: 2%;
+    }
+    position: absolute;
+    top: 0;
+    text-decoration: none;
+    background: #9c3233;
+    padding:.5% 2%;
+    color: #fff;
+  }
 `
 const Form = styled.form`
   @media (max-width:480px) {
@@ -37,12 +50,16 @@ const Form = styled.form`
   min-height: 100%;
   background: #ffffffbd;
   margin: auto;
+  p{
+    font-family: 'Poppins', sans-serif;
+  }
   input{
     @media (max-width:480px) {
       width: 100%;
       margin-left: 0%;
       height: 6vh;
       margin: auto!important;
+      font-family: 'Poppins', sans-serif;
     }
     width: 80%;
     margin-bottom: 5%;
@@ -59,6 +76,7 @@ const Form = styled.form`
         font-size: .8rem;
       }
       font-size: 1vw;
+      font-family: 'Poppins', sans-serif;
     }
   }
   textarea{
@@ -67,10 +85,18 @@ const Form = styled.form`
       margin-left: 0%;
       margin-top: 5%;
     }
+    font-family: 'Poppins', sans-serif;
     width: 80%;
     border: .5px solid lightgrey;
     margin-left: 5%;
     padding: 2%;
+    &::placeholder{
+      @media (max-width:480px) {
+        font-size: .8rem;
+      }
+      font-size: 1vw;
+      font-family: 'Poppins', sans-serif;
+    }
     &:focus{
       outline: none;
     }
@@ -90,10 +116,16 @@ const Form = styled.form`
     margin-top: 5%;
     padding: 1% 4%;
     font-size: 1.2vw;
+    font-family: 'Poppins', sans-serif;
     border: none;
     background: #68120a;
     border-radius: 5px;
     color: #fff;
+    transition: all .3s linear;
+    &:hover {
+      transform: scale(1.01);
+      background:#da3324;
+    }
   }
 `
 function Email() {
@@ -122,9 +154,16 @@ function Email() {
   }, (error) => {
       console.log(error.text);
   });
+
+  setName('')
+  setEmail('')
+  setOrganization('')
+  setPhone('')
+  SetMessage('')
 }
   return (
     <Contain>
+      <Link to="/">Home</Link>
       <Form ref={formRef} onSubmit={handleSubmit}>
         <p>Organisation*</p>
         <input type="text" value={name} name="userName" onChange={(e)=>setName(e.target.value)} placeholder="organization" />
@@ -138,7 +177,7 @@ function Email() {
         </textarea>
 
         <button>Submit</button>
-        {done && 'Your Mail has been sent'}
+        {done && `We have recieved your complaint, we'll get back to you shortly`}
       </Form>
       <Toaster/>
     </Contain>
