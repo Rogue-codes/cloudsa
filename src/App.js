@@ -3,6 +3,9 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Email from "./Components/Email";
 import { useEffect, useState } from "react";
 import styled from 'styled-components'
+import AzureActiveDirectory from "./Components/AzureActiveDirectory";
+import Microst365 from "./Components/Microst365";
+import OnPrem from "./Components/OnPrem";
 
 const Loader = styled.div`
     width: 100%;
@@ -38,6 +41,9 @@ function App() {
             <Routes>
               <Route path="/" element={<Home/>}/>
               <Route path="/email" element={<Email/>}/>
+              <Route path='/aad' element={<AzureActiveDirectory/>}/>
+              <Route path='/m365' element={<Microst365/>}/>
+              <Route path='/onPrem' element={<OnPrem/>}/>
             </Routes>
           </Router>
         )

@@ -17,10 +17,10 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Header>
         <Modal.Body className='flex'>
           {/* <h4>Select Options</h4> */}
-          <button><Link to="/email">Azure Active Directory</Link></button>
+          <button><Link to="/aad">Azure Active Directory</Link></button>
           <button><Link to="/email">Azure Infrastructure</Link></button>
-          <button><Link to="/email">Microsoft 365 (Exchange Online,OneDrive, Teams)</Link></button>
-          <button><Link to="/email">On-Premise (Active Directory, Exchange Server)</Link></button>
+          <button><Link to="/m365">Microsoft 365 (Exchange Online,OneDrive, Teams)</Link></button>
+          <button><Link to="/onPrem">On-Premise (Active Directory, Exchange Server)</Link></button>
         </Modal.Body>
         <Modal.Footer>
           <Button onClick={props.onHide}>Close</Button>
