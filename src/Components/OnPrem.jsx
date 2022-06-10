@@ -18,6 +18,10 @@ const Container = styled.div`
     -o-background-size:cover;
     background-position: 10% 50%;
     h1{
+        @media (max-width:480px) {
+            font-size: 2rem;
+            padding-top: 9%;
+        }
         text-align: center;
         color: #fff;
         padding-top: 2%;
@@ -36,6 +40,9 @@ const Container = styled.div`
     }
 `
 const CardContainer = styled.div`
+    @media (max-width:480px) {
+        flex-direction: column;
+    }
     width: 100%;
     height: 90vh;
     display: flex;
@@ -45,6 +52,9 @@ const CardContainer = styled.div`
     align-items: center;
 `
 const Card = styled.div`
+    @media (max-width:480px) {
+        width: 95%;
+    }
     width: 22%;
     height: 15%;
     padding: 1%;
@@ -62,6 +72,9 @@ const Card = styled.div`
     background: #fff;
     cursor: pointer;
     p{
+        @media (max-width:480px) {
+            font-size: 1rem;
+        }
         margin-top: 10%;
     }
     &:hover{

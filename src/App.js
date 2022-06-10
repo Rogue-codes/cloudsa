@@ -6,6 +6,7 @@ import styled from 'styled-components'
 import AzureActiveDirectory from "./Components/AzureActiveDirectory";
 import Microst365 from "./Components/Microst365";
 import OnPrem from "./Components/OnPrem";
+import AzureInfra from "./Components/AzureInfra";
 
 const Loader = styled.div`
     width: 100%;
@@ -44,6 +45,7 @@ function App() {
               <Route path='/aad' element={<AzureActiveDirectory/>}/>
               <Route path='/m365' element={<Microst365/>}/>
               <Route path='/onPrem' element={<OnPrem/>}/>
+              <Route path='/azureInfra' element={<AzureInfra/>}/>
             </Routes>
           </Router>
         )
