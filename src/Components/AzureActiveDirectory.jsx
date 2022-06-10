@@ -123,78 +123,109 @@ const AzureActiveDirectory = () => {
 
         <CardContainer>
             <Card><GoIssueReopened color='#9c3233' size='2rem'/>
-                <p style={{color:'#9c3233'}}>
-                <AnimatedText
-            type="words" // animate words or chars
-            animation={{
-                x: '200px',
-                y: '-20px',
-                scale: 1.1,
-                ease: 'ease-in-out',
-            }}
-            animationType="bounce"
-            interval={0.06}
-            duration={0.8}
-            tag="p"
-            className="animated-paragraph"
-            includeWhiteSpaces
-            threshold={0.1}
-            rootMargin="20%"
-            >
-               Replication Issue
-                </AnimatedText>
-                </p>
+                <Link to='/email'>
+                    <p style={{color:'#9c3233'}}>
+                    <AnimatedText
+                type="words" // animate words or chars
+                animation={{
+                    x: '200px',
+                    y: '-20px',
+                    scale: 1.1,
+                    ease: 'ease-in-out',
+                }}
+                animationType="bounce"
+                interval={0.06}
+                duration={0.8}
+                tag="p"
+                className="animated-paragraph"
+                includeWhiteSpaces
+                threshold={0.1}
+                rootMargin="20%"
+                >
+                Replication Issue
+                    </AnimatedText>
+                    </p>
+                </Link>
             </Card>
 
             <Card>
                 <SiAzureartifacts size='2rem'/>
-                <p>
-                <AnimatedText
-            type="words" // animate words or chars
-            animation={{
-                x: '200px',
-                y: '-20px',
-                scale: 1.1,
-                ease: 'ease-in-out',
-            }}
-            animationType="bounce"
-            interval={0.06}
-            duration={0.8}
-            tag="p"
-            className="animated-paragraph"
-            includeWhiteSpaces
-            threshold={0.1}
-            rootMargin="20%"
-            >
-               Active directory clean-up
-                </AnimatedText>
-                </p>
+                <Link to='/email'>
+                        <p>
+                        <AnimatedText
+                    type="words" // animate words or chars
+                    animation={{
+                        x: '200px',
+                        y: '-20px',
+                        scale: 1.1,
+                        ease: 'ease-in-out',
+                    }}
+                    animationType="bounce"
+                    interval={0.06}
+                    duration={0.8}
+                    tag="p"
+                    className="animated-paragraph"
+                    includeWhiteSpaces
+                    threshold={0.1}
+                    rootMargin="20%"
+                    >
+                    Active directory clean-up
+                        </AnimatedText>
+                        </p>
+                </Link>
             </Card>
             <Card>
                 <ImConnection color='green' size='2rem'/>
-                <p style={{color:'green'}}>
-                <AnimatedText
-            type="words" // animate words or chars
-            animation={{
-                x: '200px',
-                y: '-20px',
-                scale: 1.1,
-                ease: 'ease-in-out',
-            }}
-            animationType="bounce"
-            interval={0.06}
-            duration={0.8}
-            tag="p"
-            className="animated-paragraph"
-            includeWhiteSpaces
-            threshold={0.1}
-            rootMargin="20%"
-            >
-               Workstation Connectivity Issue
-                </AnimatedText>
-                </p>
+                <Link to='/email'>
+                        <p style={{color:'green'}}>
+                        <AnimatedText
+                    type="words" // animate words or chars
+                    animation={{
+                        x: '200px',
+                        y: '-20px',
+                        scale: 1.1,
+                        ease: 'ease-in-out',
+                    }}
+                    animationType="bounce"
+                    interval={0.06}
+                    duration={0.8}
+                    tag="p"
+                    className="animated-paragraph"
+                    includeWhiteSpaces
+                    threshold={0.1}
+                    rootMargin="20%"
+                    >
+                    Workstation Connectivity Issue
+                        </AnimatedText>
+                        </p>
+                </Link>
             </Card>
-            <Card><RiSettings5Fill size='2.5rem' color='orange'/><p style={{color:'orange'}}>Others</p></Card>
+
+            <Card><RiSettings5Fill size='2.5rem' color='orange'/>
+                <Link to='/email'>
+                    <p style={{color:'orange'}}>
+                    <AnimatedText
+                        type="words" // animate words or chars
+                        animation={{
+                            x: '200px',
+                            y: '-20px',
+                            scale: 1.1,
+                            ease: 'ease-in-out',
+                        }}
+                        animationType="bounce"
+                        interval={0.06}
+                        duration={0.8}
+                        tag="p"
+                        className="animated-paragraph"
+                        includeWhiteSpaces
+                        threshold={0.1}
+                        rootMargin="20%"
+                        >
+                            Others
+                        </AnimatedText>
+                    </p>
+                </Link>
+            </Card>
         </CardContainer>
     </Container>
   )

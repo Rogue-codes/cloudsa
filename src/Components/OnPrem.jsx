@@ -116,84 +116,116 @@ function OnPrem() {
                     threshold={0.1}
                     rootMargin="20%"
                 >
-                    On-Premise Solution(Exchange Server, Active Directory)
+                   On-Premise Solution(Exchange Server, Active Directory)
                 </AnimatedText>
         </h1>
 
         <CardContainer>
             <Card><GoIssueReopened color='#9c3233' size='2rem'/>
-                <p style={{color:'#9c3233'}}>
-                <AnimatedText
-            type="words" // animate words or chars
-            animation={{
-                x: '200px',
-                y: '-20px',
-                scale: 1.1,
-                ease: 'ease-in-out',
-            }}
-            animationType="bounce"
-            interval={0.06}
-            duration={0.8}
-            tag="p"
-            className="animated-paragraph"
-            includeWhiteSpaces
-            threshold={0.1}
-            rootMargin="20%"
-            >
-               Azure Active Directory Connect
-                </AnimatedText>
-                </p>
+                <Link to='/email'>
+                    <p style={{color:'#9c3233'}}>
+                        <AnimatedText
+                    type="words" // animate words or chars
+                    animation={{
+                        x: '200px',
+                        y: '-20px',
+                        scale: 1.1,
+                        ease: 'ease-in-out',
+                    }}
+                    animationType="bounce"
+                    interval={0.06}
+                    duration={0.8}
+                    tag="p"
+                    className="animated-paragraph"
+                    includeWhiteSpaces
+                    threshold={0.1}
+                    rootMargin="20%"
+                    >
+                    Azure Active Directory Connect
+                        </AnimatedText>
+                        </p>
+                </Link>
             </Card>
 
             <Card>
                 <SiAzureartifacts size='2rem'/>
-                <p>
-                <AnimatedText
-            type="words" // animate words or chars
-            animation={{
-                x: '200px',
-                y: '-20px',
-                scale: 1.1,
-                ease: 'ease-in-out',
-            }}
-            animationType="bounce"
-            interval={0.06}
-            duration={0.8}
-            tag="p"
-            className="animated-paragraph"
-            includeWhiteSpaces
-            threshold={0.1}
-            rootMargin="20%"
-            >
-               Active directory
-                </AnimatedText>
-                </p>
+                <Link to='/email'>
+                        <p>
+                        <AnimatedText
+                    type="words" // animate words or chars
+                    animation={{
+                        x: '200px',
+                        y: '-20px',
+                        scale: 1.1,
+                        ease: 'ease-in-out',
+                    }}
+                    animationType="bounce"
+                    interval={0.06}
+                    duration={0.8}
+                    tag="p"
+                    className="animated-paragraph"
+                    includeWhiteSpaces
+                    threshold={0.1}
+                    rootMargin="20%"
+                    >
+                    Active directory
+                        </AnimatedText>
+                        </p>
+                </Link>
             </Card>
             <Card>
                 <ImConnection color='green' size='2rem'/>
-                <p style={{color:'green'}}>
-                <AnimatedText
-            type="words" // animate words or chars
-            animation={{
-                x: '200px',
-                y: '-20px',
-                scale: 1.1,
-                ease: 'ease-in-out',
-            }}
-            animationType="bounce"
-            interval={0.06}
-            duration={0.8}
-            tag="p"
-            className="animated-paragraph"
-            includeWhiteSpaces
-            threshold={0.1}
-            rootMargin="20%"
-            >
-               Exchange Server On-Premise
-                </AnimatedText>
-                </p>
+                <Link to='/email'>
+                        <p style={{color:'green'}}>
+                        <AnimatedText
+                    type="words" // animate words or chars
+                    animation={{
+                        x: '200px',
+                        y: '-20px',
+                        scale: 1.1,
+                        ease: 'ease-in-out',
+                    }}
+                    animationType="bounce"
+                    interval={0.06}
+                    duration={0.8}
+                    tag="p"
+                    className="animated-paragraph"
+                    includeWhiteSpaces
+                    threshold={0.1}
+                    rootMargin="20%"
+                    >
+                    Exchange Server On-Premise
+                        </AnimatedText>
+                        </p>
+                </Link>
             </Card>
-            <Card><RiSettings5Fill size='2.5rem' color='orange'/><p style={{color:'orange'}}>Others</p></Card>
+
+            <Card>
+                <RiSettings5Fill size='2.5rem' color='orange'/>
+                <Link to='/email'>
+                    <p style={{color:'orange'}}>
+                    <AnimatedText
+                    type="words" // animate words or chars
+                    animation={{
+                        x: '200px',
+                        y: '-20px',
+                        scale: 1.1,
+                        ease: 'ease-in-out',
+                    }}
+                    animationType="bounce"
+                    interval={0.06}
+                    duration={0.8}
+                    tag="p"
+                    className="animated-paragraph"
+                    includeWhiteSpaces
+                    threshold={0.1}
+                    rootMargin="20%"
+                    >
+                    Others
+                    </AnimatedText>
+                    </p>
+                </Link>
+            </Card>
         </CardContainer>
     </Container>
   )

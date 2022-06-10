@@ -126,268 +126,299 @@ function AzureInfra() {
 
         <CardContainer>
             <Card><GoIssueReopened color='#9c3233' size='2rem'/>
-                <p style={{color:'#9c3233'}}>
-                <AnimatedText
-            type="words" // animate words or chars
-            animation={{
-                x: '200px',
-                y: '-20px',
-                scale: 1.1,
-                ease: 'ease-in-out',
-            }}
-            animationType="bounce"
-            interval={0.06}
-            duration={0.8}
-            tag="p"
-            className="animated-paragraph"
-            includeWhiteSpaces
-            threshold={0.1}
-            rootMargin="20%"
-            >
-            Storage and backup
-            </AnimatedText>
-            </p>
+            <Link to='/email'>
+                        <p style={{color:'#9c3233'}}>
+                        <AnimatedText
+                    type="words" // animate words or chars
+                    animation={{
+                        x: '200px',
+                        y: '-20px',
+                        scale: 1.1,
+                        ease: 'ease-in-out',
+                    }}
+                    animationType="bounce"
+                    interval={0.06}
+                    duration={0.8}
+                    tag="p"
+                    className="animated-paragraph"
+                    includeWhiteSpaces
+                    threshold={0.1}
+                    rootMargin="20%"
+                    >
+                    Storage and backup
+                    </AnimatedText>
+                    </p>
+            </Link>
             </Card>
 
             <Card>
             <SiAzureartifacts size='2rem'/>
-            <p>
-            <AnimatedText
-            type="words" // animate words or chars
-            animation={{
-                x: '200px',
-                y: '-20px',
-                scale: 1.1,
-                ease: 'ease-in-out',
-            }}
-            animationType="bounce"
-            interval={0.06}
-            duration={0.8}
-            tag="p"
-            className="animated-paragraph"
-            includeWhiteSpaces
-            threshold={0.1}
-            rootMargin="20%"
-            >
-            Site to Site Disconnection
-            </AnimatedText>
-            </p>
+            <Link to='/email'>
+                <p>
+                <AnimatedText
+                type="words" // animate words or chars
+                animation={{
+                    x: '200px',
+                    y: '-20px',
+                    scale: 1.1,
+                    ease: 'ease-in-out',
+                }}
+                animationType="bounce"
+                interval={0.06}
+                duration={0.8}
+                tag="p"
+                className="animated-paragraph"
+                includeWhiteSpaces
+                threshold={0.1}
+                rootMargin="20%"
+                >
+                Site to Site Disconnection
+                </AnimatedText>
+                </p>
+            </Link>
             </Card>
+
             <Card>
                 <ImConnection color='green' size='2rem'/>
-                <p style={{color:'green'}}>
-                <AnimatedText
-            type="words" // animate words or chars
-            animation={{
-                x: '200px',
-                y: '-20px',
-                scale: 1.1,
-                ease: 'ease-in-out',
-            }}
-            animationType="bounce"
-            interval={0.06}
-            duration={0.8}
-            tag="p"
-            className="animated-paragraph"
-            includeWhiteSpaces
-            threshold={0.1}
-            rootMargin="20%"
-            >
-            Slow Application/ Connection Issue
-            </AnimatedText>
-            </p>
+                <Link to='/email'>
+                    <p style={{color:'green'}}>
+                    <AnimatedText
+                    type="words" // animate words or chars
+                    animation={{
+                    x: '200px',
+                    y: '-20px',
+                    scale: 1.1,
+                    ease: 'ease-in-out',
+                }}
+                animationType="bounce"
+                interval={0.06}
+                duration={0.8}
+                tag="p"
+                className="animated-paragraph"
+                includeWhiteSpaces
+                threshold={0.1}
+                rootMargin="20%"
+                >
+                Slow Application/ Connection Issue
+                </AnimatedText>
+                </p>
+                </Link>
             </Card>
+
             <Card>
             <RiSettings5Fill size='2.5rem' color='orange'/>
-                <p style={{color:'orange'}}>
-                <AnimatedText
-            type="words" // animate words or chars
-            animation={{
-                x: '200px',
-                y: '-20px',
-                scale: 1.1,
-                ease: 'ease-in-out',
-            }}
-            animationType="bounce"
-            interval={0.06}
-            duration={0.8}
-            tag="p"
-            className="animated-paragraph"
-            includeWhiteSpaces
-            threshold={0.1}
-            rootMargin="20%"
-            >
-            Security
-            </AnimatedText>
+            <Link to='/email'>
+                    <p style={{color:'orange'}}>
+                    <AnimatedText
+                type="words" // animate words or chars
+                animation={{
+                    x: '200px',
+                    y: '-20px',
+                    scale: 1.1,
+                    ease: 'ease-in-out',
+                }}
+                animationType="bounce"
+                interval={0.06}
+                duration={0.8}
+                tag="p"
+                className="animated-paragraph"
+                includeWhiteSpaces
+                threshold={0.1}
+                rootMargin="20%"
+                >
+                Security
+                </AnimatedText>
                 </p>
+            </Link>
             </Card>
+
             <Card>
                 <ImConnection color='green' size='2rem'/>
-                <p style={{color:'green'}}>
-                <AnimatedText
-            type="words" // animate words or chars
-            animation={{
-                x: '200px',
-                y: '-20px',
-                scale: 1.1,
-                ease: 'ease-in-out',
-            }}
-            animationType="bounce"
-            interval={0.06}
-            duration={0.8}
-            tag="p"
-            className="animated-paragraph"
-            includeWhiteSpaces
-            threshold={0.1}
-            rootMargin="20%"
-            >
-            SQL DB inaccessible Drive
-            </AnimatedText>
-            </p>
+                <Link to='/email'>
+                        <p style={{color:'green'}}>
+                        <AnimatedText
+                    type="words" // animate words or chars
+                    animation={{
+                        x: '200px',
+                        y: '-20px',
+                        scale: 1.1,
+                        ease: 'ease-in-out',
+                    }}
+                    animationType="bounce"
+                    interval={0.06}
+                    duration={0.8}
+                    tag="p"
+                    className="animated-paragraph"
+                    includeWhiteSpaces
+                    threshold={0.1}
+                    rootMargin="20%"
+                    >
+                    SQL DB inaccessible Drive
+                    </AnimatedText>
+                    </p>
+            </Link>
             </Card>
+
             <Card>
             <RiSettings5Fill size='2.5rem' color='orange'/>
-                <p style={{color:'orange'}}>
-                <AnimatedText
-            type="words" // animate words or chars
-            animation={{
-                x: '200px',
-                y: '-20px',
-                scale: 1.1,
-                ease: 'ease-in-out',
-            }}
-            animationType="bounce"
-            interval={0.06}
-            duration={0.8}
-            tag="p"
-            className="animated-paragraph"
-            includeWhiteSpaces
-            threshold={0.1}
-            rootMargin="20%"
-            >
-            Screenshot error on Bot diagnosis
-            </AnimatedText>
-                </p>
+            <Link to='/email'>
+                        <p style={{color:'orange'}}>
+                        <AnimatedText
+                    type="words" // animate words or chars
+                    animation={{
+                        x: '200px',
+                        y: '-20px',
+                        scale: 1.1,
+                        ease: 'ease-in-out',
+                    }}
+                    animationType="bounce"
+                    interval={0.06}
+                    duration={0.8}
+                    tag="p"
+                    className="animated-paragraph"
+                    includeWhiteSpaces
+                    threshold={0.1}
+                    rootMargin="20%"
+                    >
+                    Screenshot error on Bot diagnosis
+                    </AnimatedText>
+                        </p>
+                </Link>
             </Card>
+
             <Card>
                 <ImConnection color='green' size='2rem'/>
-                <p style={{color:'green'}}>
-                <AnimatedText
-            type="words" // animate words or chars
-            animation={{
-                x: '200px',
-                y: '-20px',
-                scale: 1.1,
-                ease: 'ease-in-out',
-            }}
-            animationType="bounce"
-            interval={0.06}
-            duration={0.8}
-            tag="p"
-            className="animated-paragraph"
-            includeWhiteSpaces
-            threshold={0.1}
-            rootMargin="20%"
-            >
-            Billing Issue
-            </AnimatedText>
-            </p>
+                <Link to='/email'>
+                        <p style={{color:'green'}}>
+                        <AnimatedText
+                    type="words" // animate words or chars
+                    animation={{
+                        x: '200px',
+                        y: '-20px',
+                        scale: 1.1,
+                        ease: 'ease-in-out',
+                    }}
+                    animationType="bounce"
+                    interval={0.06}
+                    duration={0.8}
+                    tag="p"
+                    className="animated-paragraph"
+                    includeWhiteSpaces
+                    threshold={0.1}
+                    rootMargin="20%"
+                    >
+                    Billing Issue
+                    </AnimatedText>
+                    </p>
+            </Link>
             </Card>
+
             <Card>
             <RiSettings5Fill size='2.5rem' color='orange'/>
-                <p style={{color:'orange'}}>
-                <AnimatedText
-            type="words" // animate words or chars
-            animation={{
-                x: '200px',
-                y: '-20px',
-                scale: 1.1,
-                ease: 'ease-in-out',
-            }}
-            animationType="bounce"
-            interval={0.06}
-            duration={0.8}
-            tag="p"
-            className="animated-paragraph"
-            includeWhiteSpaces
-            threshold={0.1}
-            rootMargin="20%"
-            >
-            Reservation mismatch / refund
-            </AnimatedText>
-                </p>
+            <Link to='/email'>
+                        <p style={{color:'orange'}}>
+                        <AnimatedText
+                    type="words" // animate words or chars
+                    animation={{
+                        x: '200px',
+                        y: '-20px',
+                        scale: 1.1,
+                        ease: 'ease-in-out',
+                    }}
+                    animationType="bounce"
+                    interval={0.06}
+                    duration={0.8}
+                    tag="p"
+                    className="animated-paragraph"
+                    includeWhiteSpaces
+                    threshold={0.1}
+                    rootMargin="20%"
+                    >
+                    Reservation mismatch / refund
+                    </AnimatedText>
+                        </p>
+            </Link>
             </Card>
+
             <Card>
                 <ImConnection color='green' size='2rem'/>
-                <p style={{color:'green'}}>
-                <AnimatedText
-            type="words" // animate words or chars
-            animation={{
-                x: '200px',
-                y: '-20px',
-                scale: 1.1,
-                ease: 'ease-in-out',
-            }}
-            animationType="bounce"
-            interval={0.06}
-            duration={0.8}
-            tag="p"
-            className="animated-paragraph"
-            includeWhiteSpaces
-            threshold={0.1}
-            rootMargin="20%"
-            >
-            One Drive
-            </AnimatedText>
-            </p>
+                <Link to='/email'>
+                        <p style={{color:'green'}}>
+                        <AnimatedText
+                    type="words" // animate words or chars
+                    animation={{
+                        x: '200px',
+                        y: '-20px',
+                        scale: 1.1,
+                        ease: 'ease-in-out',
+                    }}
+                    animationType="bounce"
+                    interval={0.06}
+                    duration={0.8}
+                    tag="p"
+                    className="animated-paragraph"
+                    includeWhiteSpaces
+                    threshold={0.1}
+                    rootMargin="20%"
+                    >
+                    One Drive
+                    </AnimatedText>
+                    </p>
+            </Link>
             </Card>
+            
             <Card>
             <RiSettings5Fill size='2.5rem' color='orange'/>
-                <p style={{color:'orange'}}>
-                <AnimatedText
-            type="words" // animate words or chars
-            animation={{
-                x: '200px',
-                y: '-20px',
-                scale: 1.1,
-                ease: 'ease-in-out',
-            }}
-            animationType="bounce"
-            interval={0.06}
-            duration={0.8}
-            tag="p"
-            className="animated-paragraph"
-            includeWhiteSpaces
-            threshold={0.1}
-            rootMargin="20%"
-            >
-            Security
-            </AnimatedText>
-                </p>
+            <Link to='/email'>
+                        <p style={{color:'orange'}}>
+                        <AnimatedText
+                    type="words" // animate words or chars
+                    animation={{
+                        x: '200px',
+                        y: '-20px',
+                        scale: 1.1,
+                        ease: 'ease-in-out',
+                    }}
+                    animationType="bounce"
+                    interval={0.06}
+                    duration={0.8}
+                    tag="p"
+                    className="animated-paragraph"
+                    includeWhiteSpaces
+                    threshold={0.1}
+                    rootMargin="20%"
+                    >
+                    Security
+                    </AnimatedText>
+                        </p>
+            </Link>
             </Card>
+
             <Card>
                 <ImConnection color='green' size='2rem'/>
-                <p style={{color:'green'}}>
-                <AnimatedText
-            type="words" // animate words or chars
-            animation={{
-                x: '200px',
-                y: '-20px',
-                scale: 1.1,
-                ease: 'ease-in-out',
-            }}
-            animationType="bounce"
-            interval={0.06}
-            duration={0.8}
-            tag="p"
-            className="animated-paragraph"
-            includeWhiteSpaces
-            threshold={0.1}
-            rootMargin="20%"
-            >
-            One Drive
-            </AnimatedText>
-            </p>
+                <Link to='/email'>
+                        <p style={{color:'green'}}>
+                        <AnimatedText
+                    type="words" // animate words or chars
+                    animation={{
+                        x: '200px',
+                        y: '-20px',
+                        scale: 1.1,
+                        ease: 'ease-in-out',
+                    }}
+                    animationType="bounce"
+                    interval={0.06}
+                    duration={0.8}
+                    tag="p"
+                    className="animated-paragraph"
+                    includeWhiteSpaces
+                    threshold={0.1}
+                    rootMargin="20%"
+                    >
+                    One Drive
+                    </AnimatedText>
+                    </p>
+            </Link>
             </Card>
         </CardContainer>
     </Container>
